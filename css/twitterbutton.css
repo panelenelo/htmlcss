@@ -1,0 +1,28 @@
+.twitterButton{
+    display: block;
+    margin-top: 40px;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.followButton{
+    background-color: aliceblue;
+    font-family: monospace;
+    font-weight: bold;
+
+    border: 1px solid lightgray;
+    border-radius: 100px;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+.followButton:hover{
+    background-color: rgb(217, 234, 240);
+    border: 1px solid lightblue;
+    cursor: pointer;
+}
+
