@@ -1,0 +1,39 @@
+body{
+    background: whitesmoke;
+    color: darkslategrey;
+    font-size: 30px;
+    font-weight: lighter;
+    font-family: monospace;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.mainImg{
+    margin-top: 8%;
+    margin-bottom: 55px;
+}
+
+.googleLogo{
+    display: block;
+    width:400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.textBar{
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.privacyPolicy{
+    display: block;
+    font-size: 12px;
+}
+
+.searchButton{
+    font-weight: lighter;
+    font-family: monospace;
+    color: #222222;
+}
