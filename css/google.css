@@ -1,14 +1,6 @@
-body{
-    background: whitesmoke;
-    color: darkslategrey;
-    font-size: 30px;
-    font-weight: lighter;
-    font-family: monospace;
-    text-align: center;
-    vertical-align: middle;
-}
 
 .mainImg{
+    display: block;
     margin-top: 8%;
     margin-bottom: 55px;
 }
@@ -25,15 +17,51 @@ body{
     width: 400px;
     margin-left: auto;
     margin-right: auto;
+
+    line-height: 24px;
+    
+    border: 2px solid lightgray;
+    border-radius: 24px;
+
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .privacyPolicy{
     display: block;
     font-size: 12px;
+    color: darkslategrey;
+    font-weight: lighter;
+    font-family: monospace;
+    text-align: center;
+}
+
+.pageButtons{
+    display: block;
+    text-align: center;
 }
 
 .searchButton{
     font-weight: lighter;
     font-family: monospace;
     color: #222222;
+    background-color: aliceblue;
+
+    margin-top: 8px;
+
+    border: 1px solid lightgray;
+    border-radius: 8px;
+
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.searchButton:hover{
+    color: black;
+    border: 1px solid rgb(116, 160, 175);
+    cursor: pointer;
 }
