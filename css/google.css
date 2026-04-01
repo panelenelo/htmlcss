@@ -38,9 +38,9 @@
     text-align: center;
 }
 
-.pageButtons{
-    display: block;
-    text-align: center;
+.btn-Wrapper{
+    display: flex;
+    justify-content: center;
 }
 
 .searchButton{
@@ -50,6 +50,8 @@
     background-color: aliceblue;
 
     margin-top: 8px;
+    margin-left: 4px;
+    margin-right: 4px;
 
     border: 1px solid lightgray;
     border-radius: 8px;
