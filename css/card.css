@@ -1,0 +1,16 @@
+.cardMessage{
+    background: lightgray;
+    color: #222222;
+    font-family: monospace;
+    font-size: 13px;
+    width: 320px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 3px solid grey;
+    border-radius: 12px;
+
+    padding-right: 120px;
+    padding-top: 100px;
+}
