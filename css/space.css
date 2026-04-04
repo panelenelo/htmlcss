@@ -1,0 +1,77 @@
+@font-face {
+    src: url("../data/wiona-personal-use-only.regular.ttf");
+    font-family: "Wiona-mush";
+}
+
+body{
+    margin: 0px;
+}
+
+.registration{
+    text-align: center;
+    text-shadow: 0px 0px 3px black;
+}
+
+.regButton{
+    font-family: "Wiona-mush";
+    font-weight: lighter;
+    font-size: 16px;
+    color: rgb(167, 176, 184);
+
+    background-color: #444250;
+
+    border:1px solid #222222;
+
+    padding: 3px 20px
+}
+.regButton:hover{
+    background-color: #3a374d;
+    border:1px solid #363636;
+    cursor: pointer;
+}
+
+.cta{
+    border-bottom: 4px solid #444250;
+    
+    color: #444250;
+}
+
+.fontStyle{
+    color: #4b4b4b;
+    font-weight: lighter;
+    font-family: "Oswald", sans-serif;
+}
+
+#terms{
+    border: 1px solid #222222;
+
+    background-color: #313131;
+    color: #0f0f0f;
+    font-weight: lighter;
+    font-family: monospace;
+    font-size: 16px;
+
+    text-align: center;
+}
+
+#nasaLogo{
+    display: block;
+    width:200px;
+    margin-left: auto;
+    margin-right: auto;
+    background: transparent;
+    background-color: transparent;
+}
+
+#hero{
+    background-image: url("../data/wallhaven-x1xvjo.jpg");
+    background-size: cover;
+
+    display: block;
+
+    margin: 0px;
+
+    border: 0px;
+
+    padding: 0 0 60px 0;
+}
