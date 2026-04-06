@@ -6,20 +6,19 @@
 }
 
 body{
-    background-color: rgb(127, 197, 255);
+    background: linear-gradient(rgb(33, 134, 216), rgb(12, 33, 51));
+}
+
+#header{
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-h2, p{
-    background-color: #EFB0C9;
-}
-
 #portrait{
-    width: 200px;
+    width: 300px;
     
-    border: 6px solid #EFB0C9;
+    border: 6px solid #3b3638;
     border-radius: 100%;
 }
 
@@ -28,7 +27,82 @@ h2, p{
     font-size: 32px;
 }
 
-#description{
+#bday-age{
+    background-color: #3b3638;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+#bday-date{
+    margin-top: 5px;
+    background-color: #3b3638;
+    padding: 5px 10px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.paintings{
+    width: 500px;
+    height: 300px;
+    
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/1/1a/P_S_Kr%C3%B8yer_1897_-_Selvportr%C3%A6t.jpg");
+    background-size: cover;
+    
+    border: 4px solid rgb(212, 156, 14);
+    border-radius: 5px;
+}
+
+#img-One:hover{    
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/2/2e/P.S._Kr%C3%B8yer_-_Summer_evening_on_Skagen%27s_Beach._Anna_Ancher_and_Marie_Kr%C3%B8yer_walking_together._-_Google_Art_Project.jpg");
+}
+
+#img-Two{
+    height: 400px;
+}
+
+#img-Two:hover{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Hip%2C_Hip%2C_Hurrah%21_Artists%E2%80%99_Party%2C_Skagen_%28Peder_Severin_Kr%C3%B8yer%29_-_Gothenburg_Museum_of_Art_-_F_62.tif/lossy-page1-1280px-Hip%2C_Hip%2C_Hurrah%21_Artists%E2%80%99_Party%2C_Skagen_%28Peder_Severin_Kr%C3%B8yer%29_-_Gothenburg_Museum_of_Art_-_F_62.tif.jpg");
+}
+
+#img-Three{
+    height: 500px;
+}
+
+#img-Three:hover{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/2/2e/P.S._Kr%C3%B8yer_-_Roses._Marie_Kr%C3%B8yer_seated_in_the_deckchair_in_the_garden_by_Mrs_Bendsen%27s_house_-_Google_Art_Project.jpg/1280px-P.S._Kr%C3%B8yer_-_Roses._Marie_Kr%C3%B8yer_seated_in_the_deckchair_in_the_garden_by_Mrs_Bendsen%27s_house_-_Google_Art_Project.jpg");
+}
+
+#img-Four{
+    height: 700px;
+}
+
+#img-Four:hover{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Marie_kr%C3%B8yer_p.s._kr%C3%B8yer.jpg/960px-Marie_kr%C3%B8yer_p.s._kr%C3%B8yer.jpg");
+}
+
+#gifts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 100px;
+}
+
+#footer{
+    margin-top: 200px;
+    margin-bottom: 100px;
+
     text-align: center;
     font-size: 18px;
+    font-family: monospace;
+    font-weight: lighter;
+    font-style: italic;
+    color: antiquewhite;
+}
+
+a{
+    color:chocolate
 }
